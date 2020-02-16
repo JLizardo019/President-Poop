@@ -1,0 +1,22 @@
+{
+
+"manifest_version": 2,
+"name": "President 💩",
+"version": "1.0",
+"description": "Replaces every image of Donald Trump with Hanky's artwork and the word 'Trump' with a 💩emoji",
+
+"browser_action": {
+    "default_title": "President 💩",
+    "icons": ["icon.png"],
+    "default_icon": "icon.png"
+},
+
+"content_scripts": [
+  {
+  "matches": ["<all_urls>"],
+  "js": ["content.js"]
+  }
+]
+
+
+}
